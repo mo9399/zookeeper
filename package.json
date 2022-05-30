@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"jest",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -20,5 +20,11 @@
   "homepage": "https://github.com/mo9399/zookeeper#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
   }
 }
